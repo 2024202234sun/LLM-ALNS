@@ -1,0 +1,145 @@
+{
+  "schema": "llm-alns-b.public-release.v1",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 317,
+      "sha256": "4f0d54549ba5a313b8626e9cb6341d1f88f4a44c4f6c19b544c14fd69a3be912"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 182,
+      "sha256": "a2495835aef1d5d6f838bb44a88f11bcbc1003a2bbc3e3d35f66a761c36ab7b6"
+    },
+    {
+      "path": "docs/EXTERNAL_ASSETS.md",
+      "bytes": 3343,
+      "sha256": "3916cce9f9a193a8f483037e548cc51e62375920ee11bff91fda6fa5a2559dea"
+    },
+    {
+      "path": "docs/USAGE_ZH.md",
+      "bytes": 2805,
+      "sha256": "a78281ce9a4a81196b0426c47cd88cfdf5120ab2da2d1d6991a64ce8a62044e5"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 186,
+      "sha256": "a3a0ea156716805f25048d82c82a344d174f7cc56e97598dad0644884de82138"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 486,
+      "sha256": "7d8d7457ccb21e3e2f75e3536c7d96663f4a03baf0f441fb7be16b5c5234fb9f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4366,
+      "sha256": "743f67c885243ff76c751467f90846fb466fcd6c618ebf2253e76641052bc6b8"
+    },
+    {
+      "path": "src/llm_alns_b/__init__.py",
+      "bytes": 103,
+      "sha256": "e9a059c96c676d108f57514d7badaea49edd6d83b2b19d816326f3519501f3bd"
+    },
+    {
+      "path": "src/llm_alns_b/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/llm_alns_b/cli.py",
+      "bytes": 2547,
+      "sha256": "5ba195c53d67c5dcb7e2a51093cd659b0e377fda746317e78c6fedab0dd1f3f2"
+    },
+    {
+      "path": "src/llm_alns_b/data.py",
+      "bytes": 11406,
+      "sha256": "9e131ea140b195d20edcd3e0cb1bca321387484df5e5729beec3d0170feb5073"
+    },
+    {
+      "path": "src/llm_alns_b/demo.py",
+      "bytes": 2144,
+      "sha256": "d9ff83e7e1737b1dc1150e09813dbffce2fcc240cbad83654677cbbeefa6a16a"
+    },
+    {
+      "path": "src/llm_alns_b/demo_parameters.json",
+      "bytes": 765,
+      "sha256": "c6e992c0d50904aa4fdd322bd492093c54d059e958e4df398aadf262453f4823"
+    },
+    {
+      "path": "src/llm_alns_b/experiment.py",
+      "bytes": 3158,
+      "sha256": "4b337fae6e1658ab0843870107292d9c990bd5b338fc1a552d6cced26baac193"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/__init__.py",
+      "bytes": 692,
+      "sha256": "bc46f6ebb804c77a6387ae1826c764451df66d816241e4a15380f9f7bfdbb201"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/alpha.py",
+      "bytes": 1178,
+      "sha256": "e09d562f57aba797fcb263e3e7483ebbaa31a9e451ae69164bab3d0453217c90"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/batch_repair.py",
+      "bytes": 4296,
+      "sha256": "128b571aa1b9523d6f7fecf6b4a2afb3094c8bf745ec5b979179a4179ad3d176"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/cache_repair.py",
+      "bytes": 3464,
+      "sha256": "49bc9bd8952e938897fa5455cd194b46313de9d2218895e8f7bad3478a089ecd"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/components.py",
+      "bytes": 2682,
+      "sha256": "cb102ff3a0b9b09e487e6cbfb95ba50cd88c56bf84b8701dc8f81c2712ab69a5"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/config.py",
+      "bytes": 5000,
+      "sha256": "87b422be5228c8357d139889e3ae4d383271ef626a2f55f85e11ce56a902d3e0"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/grid.py",
+      "bytes": 3324,
+      "sha256": "e8bc012cca42b853809088ef671e6ee07c9fb439d2fddb1ad70c0799cdec2bf4"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/primitives.py",
+      "bytes": 4577,
+      "sha256": "be248070a752c2b9fe8db5787da67f58b32ae46c798e87204dc5ec842b16d166"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/problem.py",
+      "bytes": 1653,
+      "sha256": "01f5b0ebbbc603f715c7287150ba82511e6598a37f940681423f26ed2f345cee"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/safe_program.py",
+      "bytes": 8598,
+      "sha256": "3ad3a7bbb8493f9f3b7e5be4e76dd0f2872f918566539e8aa46d8b67cbd83667"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/scalar_repair.py",
+      "bytes": 3483,
+      "sha256": "6a8c54d0b5eaf375964b9c4adf2813cd1d199361f12023022622556af3447923"
+    },
+    {
+      "path": "src/llm_alns_b/runtime/solver.py",
+      "bytes": 6879,
+      "sha256": "5cc260063ac56813d1f548d4973ab60841b14fcfb76ed43fbf1aa1fd3a05f769"
+    },
+    {
+      "path": "tests/test_public_search.py",
+      "bytes": 6552,
+      "sha256": "0dc3f396954822f00fc867c84d3a48bc196e6653d9ecb0f0b27b6037e0a1d355"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 838,
+      "sha256": "943dda46c021ca7174722fc9e9c9df3037e73de55870e6af5e421e0e508195ae"
+    }
+  ]
+}

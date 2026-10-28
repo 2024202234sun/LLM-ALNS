@@ -1,0 +1,28 @@
+{
+  "schema": "llm-alns-b.public-validation.v1",
+  "status": "PASS",
+  "date": "2026-10-28",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "public_synthetic_tests": {
+    "total": 9,
+    "passed": 9,
+    "private_assets_required": false
+  },
+  "synthetic_cli_smoke": "PASS",
+  "private_asset_compatibility": {
+    "status": "PASS",
+    "search_execution_identical": true,
+    "private_values_disclosed": false
+  },
+  "publication_scan": {
+    "status": "PASS",
+    "research_assets_included": false,
+    "research_defaults_included": false,
+    "policy_evolution_implementation_included": false
+  },
+  "network_requests": 0,
+  "reproducibility": "Frozen-policy search is reproducible with the original external private inputs. Public synthetic examples are independently runnable."
+}
